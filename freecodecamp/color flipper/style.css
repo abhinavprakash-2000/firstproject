@@ -1,0 +1,30 @@
+.nav-centr{
+    height: 20%;
+    background-color: teal;
+    display: flex;
+    text-decoration: none;
+    /* background-color: teal; */
+}
+
+.nav-links {
+    background-color: teal;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+nav a{
+    color: thistle;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.kk{
+    height: 80%;
+    /* border: 3px solid #73AD21; */
+    margin-top: 20%;
+    margin-left: 45%;
+}

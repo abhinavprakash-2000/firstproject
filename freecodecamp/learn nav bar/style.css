@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+nav{
+    /* my full nav system */
+    height:10vh;
+    background-color: bisque;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links {
+    /* all nav tabs in oneline */
+    display: flex;
+    /* //remove all dots */
+    color: white;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    /* keep the item in center wrt to everthing */
+    align-items: center;
+    /* background-color: burlywood; */
+    margin-left: auto;
+    text-decoration: none;
+}
